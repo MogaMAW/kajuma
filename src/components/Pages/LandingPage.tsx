@@ -9,7 +9,7 @@ import { Footer } from "../layout/Footer";
 export const LandingPage: React.FC = () => {
   return (
     <Fragment>
-      <div className="bg-white text-primary">
+      <div className="bg-white w-full text-gray-800">
         <Header />
         <Mission />
         <UniqueSelling />
