@@ -1,0 +1,19 @@
+{
+  "testimonials": [
+    {
+      "username": "Sheldon  Aine",
+      "message": "I've been a customer of Kajuma Agro for years, and their broiler chicken is consistently top-notch. The meat is juicy, and the unique sealed air packaging ensures its freshness. As someone who values high-quality poultry, Kajuma Agro has become my go-to for flavorful and fresh chicken products.",
+      "userImageUrl": "https://res.cloudinary.com/dlmv4ot9h/image/upload/v1707568138/kajuma/img34_ll4fuo.jpg"
+    },
+    {
+      "username": "Mark  Wright",
+      "message": "Kajuma Agro's beef is unmatched! The tenderness and rich flavor of the meat make every meal a delightful experience. Knowing it's locally sourced adds an etra layer of satisfaction to our dining table. Truly the best choice for quality and taste!",
+      "userImageUrl": "https://res.cloudinary.com/dlmv4ot9h/image/upload/v1707568138/kajuma/img34_ll4fuo.jpg"
+    },
+    {
+      "username": "Dorothy Greene",
+      "message": "Kajuma Agro has exceeded my expectations. The authenticity of their locally bred beef sets them apart. The ethical sourcing practices and advanced processing technology shine through in every bite. It's not just meat; it's an experience worth savoring!",
+      "userImageUrl": "https://res.cloudinary.com/dlmv4ot9h/image/upload/v1707568138/kajuma/img34_ll4fuo.jpg"
+    }
+  ]
+}
