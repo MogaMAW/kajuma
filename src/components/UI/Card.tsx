@@ -1,9 +1,22 @@
-import React, { Fragment } from "react";
+import React, { Fragment, ReactNode } from "react";
+import { twMerge } from "tailwind-merge";
 
-export const Card: React.FC = () => {
+interface CardProps {
+  className?: string;
+  children: ReactNode;
+}
+
+export const Card: React.FC<CardProps> = (props) => {
   return (
     <Fragment>
-      <div>Card</div>
+      <div
+        className={twMerge(
+          "bg-white text-gray-800 shadow-lg rounded-xl p-4",
+          props.className
+        )}
+      >
+        {props.children}
+      </div>
     </Fragment>
   );
 };
