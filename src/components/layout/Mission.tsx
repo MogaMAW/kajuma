@@ -9,10 +9,7 @@ export const Mission: React.FC = () => {
         className="flex flex-col md:flex-row gap-4
         px-4 sm:px-8 items-center justify-center md:gap-16"
       >
-        <div
-          className="w-full max-w-[450px] aspect-[3/3] relative
-         bg-green-500s"
-        >
+        <div className="w-full max-w-[450px] aspect-[3/3] relative">
           <div
             className="w-3/5 md h-[70%] aspect-[3/4] rounded-xl
              absolute top-0 left-0"
@@ -47,7 +44,7 @@ export const Mission: React.FC = () => {
           </div>
           <div>
             <h4 className="text-xl font-bold">Description</h4>
-            <p className="text-base  text-gray-700">
+            <p className="text-base text-gray-700">
               Kajuma agro, with over four years of expertise in poultry supply,
               specializes in delivering high quality, locally bred bee and
               broiler chicken. Offering a diverse range of chicken sizes and
