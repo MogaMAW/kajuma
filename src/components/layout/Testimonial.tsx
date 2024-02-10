@@ -11,7 +11,7 @@ export const Testimonial: React.FC = () => {
   const testimonials = testimonial.testimonials;
   return (
     <Fragment>
-      <div className="space-y-6">
+      <div className="flex flex-col items-center gap-6 px-4 sm:px-8">
         <div>
           <p
             className="text-3xl w-full text-center font-semibold
@@ -21,8 +21,8 @@ export const Testimonial: React.FC = () => {
           </p>
         </div>
         <div
-          className="flex flex-col sm:flex-row justify-center
-           items-center gap-4"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 
+           gap-4"
         >
           {testimonials.map((testimonial, index) => (
             <div key={index}>

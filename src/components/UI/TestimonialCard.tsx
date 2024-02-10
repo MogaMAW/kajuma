@@ -11,7 +11,7 @@ export const TestimonialCard: React.FC<TestimonialCardProps> = (props) => {
     <Fragment>
       <div
         className="text-gray-800 flex 
-         flex-col justify-center items-center w-72
+         flex-col justify-center items-center w-full lg:w-72
          rounded-xl shadow-md p-4 border-[1px] border-gray-200
          gap-4"
       >
