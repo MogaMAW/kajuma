@@ -57,16 +57,16 @@ export const HeaderContent: React.FC<HeaderContentProps> = (props) => {
           <NavLink to="/">
             <img src={logo} alt="logo" className="w-20 h-auto" />
           </NavLink>
-          <NavLink to="#home">
+          <NavLink to="#home" className="hidden sm:block">
             <span>Home</span>
           </NavLink>
-          <NavLink to="#about">
+          <NavLink to="#about" className="hidden sm:block">
             <span>About</span>
           </NavLink>
-          <NavLink to="#services">
+          <NavLink to="#services" className="hidden sm:block">
             <span>Services</span>
           </NavLink>
-          <NavLink to="#gallery">
+          <NavLink to="#gallery" className="hidden sm:block">
             <span>Gallery</span>
           </NavLink>
           <NavLink to="#order">
