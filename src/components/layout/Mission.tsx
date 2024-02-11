@@ -35,10 +35,10 @@ export const Mission: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold">Our Mission</h3>
             <p className="text-base text-gray-700">
-              Mission: To uplift communities through sustainable agriculture
-              offering premium quality, locally sourced beef, and broiler
-              chicken. With over 4 years in poultry supply, focusing on ensuring
-              food security, delivering an exceptional customer experience, and
+              To uplift communities through sustainable agriculture offering
+              premium quality, locally sourced beef, and broiler chicken. With
+              over 4 years in poultry supply, focusing on ensuring food
+              security, delivering an exceptional customer experience, and
               prioritizing efficiency and value for our clients{" "}
             </p>
           </div>

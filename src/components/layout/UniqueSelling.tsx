@@ -12,7 +12,7 @@ export const UniqueSelling: React.FC = () => {
         style={{
           backgroundImage: `linear-gradient(
             to bottom right,
-          #5FA0D8,
+          #ff8787,
           #fff
         )`,
         }}

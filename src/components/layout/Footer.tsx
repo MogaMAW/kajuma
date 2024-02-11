@@ -83,6 +83,9 @@ export const Footer: React.FC = () => {
                 </IconContext.Provider>
               </Link>
             </p>
+            <p className="flex items-center justify-start gap-x-4">
+              @kajumaagro
+            </p>
           </div>
         </div>
         <div className="flex items-center justify-between gap-4 w-full my-3">

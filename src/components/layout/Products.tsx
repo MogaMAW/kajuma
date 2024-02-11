@@ -111,7 +111,8 @@ export const Products: React.FC = () => {
           <div
             className="w-full max-w-[450px] h-auto aspect-[4/3] rounded-xl"
             style={{
-              backgroundImage: `url(${images["Img18"]})`,
+              backgroundImage: `url(${images["Img28"]})`,
+              backgroundPosition: "center",
               backgroundSize: "cover",
               objectFit: "cover",
               backgroundRepeat: "no-repeat",
@@ -165,7 +166,7 @@ export const Products: React.FC = () => {
           </Card>
         </div>
         <div
-          className="bg-[#a5d8ff] flex justify-center items-center 
+          className="bg-[#a5d8ff]s bg-primaryLight flex justify-center items-center 
            gap-4 p-4 absolute bottom-0 left-0 w-full"
         >
           <span className="text-2xl font-bold text-white">
