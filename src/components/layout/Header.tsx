@@ -9,7 +9,6 @@ export const Header: React.FC = () => {
   const slides = [
     <HeaderContent image={images["Img1"]} className="bg-center md:bg-top" />,
     <HeaderContent image={images["Img2"]} className="bg-center md:bg-top" />,
-    <HeaderContent image={images["Img3"]} className="bg-center md:bg-top" />,
     <HeaderContent image={images["Img7"]} className="bg-center md:bg-top" />,
   ];
   return (

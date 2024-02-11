@@ -10,11 +10,11 @@ export const Products: React.FC = () => {
     <Fragment>
       <div className="px-4 sm:px-8 space-y-8 relative pb-28">
         <div className="w-full flex items-center gap-4">
-          <span className="w-full border-[1px] border-gray-400"></span>
+          {/* <span className="w-full border-[1px] border-gray-400"></span> */}
           <span className="text-2xl text-gray-800 font-bold w-full text-center">
             Our products
           </span>
-          <span className="w-full border-[1px] border-gray-400"></span>
+          {/* <span className="w-full border-[1px] border-gray-400"></span> */}
         </div>
         <div
           className="flex flex-col sm:flex-row justify-start 
