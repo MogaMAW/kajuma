@@ -26,6 +26,12 @@ export const Products: React.FC = () => {
     <AppImage url={images.Img14} />,
   ];
 
+  // const infoImages = [
+  //   <AppImage url={images.Img1} />,
+  //   <AppImage url={images.Img2} />,
+  //   <AppImage url={images.Img7} />,
+  // ];
+
   return (
     <Fragment>
       <div className="px-4 sm:px-8 space-y-8 relative pb-28">

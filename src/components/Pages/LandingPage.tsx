@@ -5,6 +5,7 @@ import { Products } from "../layout/Products";
 import { UniqueSelling } from "../layout/UniqueSelling";
 import { Testimonial } from "../layout/Testimonial";
 import { Footer } from "../layout/Footer";
+import { CallToActionInfo } from "../layout/CallToActionInfo";
 
 export const LandingPage: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ export const LandingPage: React.FC = () => {
         <Mission />
         <UniqueSelling />
         <Products />
+        <CallToActionInfo />
         <Testimonial />
         <Footer />
       </div>
