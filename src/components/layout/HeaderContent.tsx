@@ -45,6 +45,7 @@ export const HeaderContent: React.FC<HeaderContentProps> = (props) => {
           ), url(${props.image})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
+          // transform: "scale(0.5)",
           width: "100%",
           height: "100vh",
         }}
@@ -96,7 +97,7 @@ export const HeaderContent: React.FC<HeaderContentProps> = (props) => {
             <span className="text-5xl font-bold">KAJUMA</span>
             <span
               className="text-3xl font-bold text-yellow-400
-            underline"
+              underline"
             >
               AGRO COMPANY LTD
             </span>
