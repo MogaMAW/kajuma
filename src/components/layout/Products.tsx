@@ -27,7 +27,7 @@ export const Products: React.FC = () => {
 
   return (
     <Fragment>
-      <div className="px-4 sm:px-8 space-y-8 relative pb-28">
+      <div className="px-4 sm:px-8 space-y-8 relative pb-72 sm:pb-40">
         <div className="w-full flex items-center gap-4">
           {/* <span className="w-full border-[1px] border-gray-400"></span> */}
           <span className="text-2xl text-gray-800 font-bold w-full text-center">
@@ -110,7 +110,7 @@ export const Products: React.FC = () => {
             <span> Liver (1kg) ~ 8000 /-</span>
           </Card>
         </div>
-        <div>
+        <div className="flex items-center justify-center">
           <ElementSlider slides={chickenProductImages} />
         </div>
         <div
@@ -187,21 +187,28 @@ export const Products: React.FC = () => {
             <span>Rump cap (1kg) ~ 42000 /-</span>
           </Card>
         </div>
-        <div>
+        <div className="flex items-center justify-center">
           <ElementSlider slides={meatProductImages} />
         </div>
-        <div
-          className="bg-[#a5d8ff]s bg-primaryLight flex justify-center items-center 
-           gap-4 p-4 absolute bottom-0 left-0 w-full"
-        >
-          <span className="text-2xl font-bold text-white">
-            Call, Order and We’ll Deliver
-          </span>
-          <Button
-            type="button"
-            label="Order"
-            className="inline-block w-24 bg-primary font-bold"
-          />
+        <div className="bg-primaryLight  absolute bottom-0 left-0 w-full">
+          <div className="flex justify-center items-center gap-4 p-4">
+            <span className="text-2xl font-bold text-white">
+              Call, Order and We’ll Deliver
+            </span>
+            <Button
+              type="button"
+              label="Order"
+              className="inline-block w-24 bg-primary font-bold"
+            />
+          </div>
+          <div
+            className="flex flex-col justify-center items-center 
+             sm:flex-row gap-4 p-4 text-white"
+          >
+            <span>+256 751049 193</span>
+            <span>+256 783 136 674</span>
+            <span>+256 779 632 799</span>
+          </div>
         </div>
       </div>
     </Fragment>

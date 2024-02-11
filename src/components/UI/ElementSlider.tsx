@@ -29,9 +29,12 @@ export const ElementSlider: React.FC<ElementSliderProps> = (props) => {
         scrollbar={{ draggable: true }}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
+        className="max-w-[900px]"
       >
         {props.slides.map((slide, index) => (
-          <SwiperSlide key={index}>{slide}</SwiperSlide>
+          <SwiperSlide key={index} className="w-auto inline-block max-w-64s">
+            {slide}
+          </SwiperSlide>
         ))}
       </Swiper>
     </Fragment>

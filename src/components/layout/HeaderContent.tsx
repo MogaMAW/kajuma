@@ -45,9 +45,8 @@ export const HeaderContent: React.FC<HeaderContentProps> = (props) => {
           ), url(${props.image})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          // transform: "scale(0.5)",
           width: "100%",
-          height: "100vh",
+          height: "80vh",
         }}
       >
         <nav
