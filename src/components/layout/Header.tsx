@@ -7,9 +7,13 @@ export const Header: React.FC = () => {
   const images = dataImages.app;
 
   const slides = [
-    <HeaderContent image={images["Img1"]} className="bg-center md:bg-top" />,
-    <HeaderContent image={images["Img2"]} className="bg-center md:bg-top" />,
-    <HeaderContent image={images["Img7"]} className="bg-center md:bg-top" />,
+    <HeaderContent image={images["Img24"]} className="bg-center" />,
+    <HeaderContent image={images["Img25"]} className="bg-center" />,
+    <HeaderContent image={images["Img28"]} className="bg-center" />,
+    <HeaderContent image={images["Img15"]} className="bg-center" />,
+    <HeaderContent image={images["Img11"]} className="bg-center" />,
+    <HeaderContent image={images["Img20"]} className="bg-center" />,
+    <HeaderContent image={images["Img21"]} className="bg-center" />,
   ];
   return (
     <Fragment>
