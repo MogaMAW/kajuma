@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import { twMerge } from "tailwind-merge";
 import logo from "../../assets/logo.jpeg";
 import { Button } from "../UI/Button";
+import { Helmet } from "react-helmet";
 
 interface HeaderContentProps {
   className?: string;
@@ -12,6 +13,27 @@ interface HeaderContentProps {
 export const HeaderContent: React.FC<HeaderContentProps> = (props) => {
   return (
     <Fragment>
+      {/* Meta Tags for SEO */}
+      <Helmet>
+        <title>KAJUMA | Agro Company Ltd - Chicken and Meat Products</title>
+        <meta
+          name="description"
+          content="KAJUMA Agro Company Ltd specializes in chicken and meat products. Explore our range of high-quality products and place your order today."
+        />
+        <meta
+          property="og:title"
+          content="KAJUMA | Agro Company Ltd - Chicken and Meat Products"
+        />
+        <meta
+          property="og:description"
+          content="KAJUMA Agro Company Ltd specializes in chicken and meat products. Explore our range of high-quality products and place your order today."
+        />
+        <meta property="og:image" content={logo} />
+        <meta property="og:url" content="https://kajuma.netlify.app/" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
+      {/* End of Meta Tags */}
+
       <div
         className={twMerge(`w-full relative`, props.className)}
         style={{
