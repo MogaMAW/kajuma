@@ -1,10 +1,30 @@
 import React, { Fragment } from "react";
 import { Card } from "../UI/Card";
 import { Button } from "../UI/Button";
+import { ElementSlider } from "../UI/ElementSlider";
+import { AppImage } from "../UI/AppImage";
 import dataImages from "../../data/images.json";
 
 export const Products: React.FC = () => {
   const images = dataImages.app;
+
+  const chickenProductImages = [
+    <AppImage url={images.Img4} />,
+    <AppImage url={images.Img25} />,
+    <AppImage url={images.Img29} />,
+    <AppImage url={images.Img26} />,
+    <AppImage url={images.Img27} />,
+  ];
+
+  const meatProductImages = [
+    <AppImage url={images.Img21} />,
+    <AppImage url={images.Img20} />,
+    <AppImage url={images.Img22} />,
+    <AppImage url={images.Img15} />,
+    <AppImage url={images.Img12} />,
+    <AppImage url={images.Img10} />,
+    <AppImage url={images.Img14} />,
+  ];
 
   return (
     <Fragment>
@@ -91,6 +111,9 @@ export const Products: React.FC = () => {
             <span> Liver (1kg) ~ 8000 /-</span>
           </Card>
         </div>
+        <div>
+          <ElementSlider slides={chickenProductImages} />
+        </div>
         <div
           className="flex flex-col sm:flex-row justify-start 
            sm:justify-center items-center sm:items-start gap-8"
@@ -164,6 +187,9 @@ export const Products: React.FC = () => {
             <span>Flank steak (1kg) ~ 42000 /-</span>
             <span>Rump cap (1kg) ~ 42000 /-</span>
           </Card>
+        </div>
+        <div>
+          <ElementSlider slides={meatProductImages} />
         </div>
         <div
           className="bg-[#a5d8ff]s bg-primaryLight flex justify-center items-center 

@@ -35,8 +35,12 @@ export const Footer: React.FC = () => {
           <div className="w-full space-y-2 text-white">
             <span className="font-semibold text-xl">Contact Us</span>
             <div className="flex flex-col">
-              <span>0779632799</span>
-              <span>0773429441</span>
+              {/* <span>0779632799</span>
+              <span>0773429441</span> */}
+              <span>+256 751049 193</span>
+              <span>+256 783 136 674</span>
+              <span>+256 779 632 799</span>
+              <span>Kajumaagro@gmail.com</span>
             </div>
           </div>
           <div className="w-full space-y-2 text-white">
