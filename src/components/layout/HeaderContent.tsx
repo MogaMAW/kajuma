@@ -35,7 +35,10 @@ export const HeaderContent: React.FC<HeaderContentProps> = (props) => {
       {/* End of Meta Tags */}
 
       <div
-        className={twMerge(`w-full relative`, props.className)}
+        className={twMerge(
+          `w-full relative h-[70vh] sm:h-[80vh]`,
+          props.className
+        )}
         style={{
           backgroundImage: `linear-gradient(
             to right,
@@ -45,8 +48,8 @@ export const HeaderContent: React.FC<HeaderContentProps> = (props) => {
           ), url(${props.image})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          width: "100%",
-          height: "80vh",
+          // width: "100%",
+          // height: "80vh",
         }}
       >
         <nav

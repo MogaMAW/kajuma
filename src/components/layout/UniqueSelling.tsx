@@ -22,15 +22,20 @@ export const UniqueSelling: React.FC = () => {
             Our Unique Selling Points
           </span>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {points.map((point, index) => (
-            <div key={index}>
-              <Card className="flex flex-col justify-center items-center gap-4">
-                <span>{point.title}</span>
-                <span>{point.content}</span>
-              </Card>
-            </div>
-          ))}
+        <div className="flex items-center justify-center bg-green-500s">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {points.map((point, index) => (
+              <div key={index}>
+                <Card
+                  className="flex flex-col justify-center items-center 
+                   gap-4 lg:max-w-[450px]"
+                >
+                  <span>{point.title}</span>
+                  <span>{point.content}</span>
+                </Card>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </Fragment>

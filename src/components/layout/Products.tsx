@@ -185,6 +185,7 @@ export const Products: React.FC = () => {
             </p>
             <span>Flank steak (1kg) ~ 42000 /-</span>
             <span>Rump cap (1kg) ~ 42000 /-</span>
+            <span>T- Bone Steak ~ 18,000/-</span>
           </Card>
         </div>
         <div className="flex items-center justify-center">
