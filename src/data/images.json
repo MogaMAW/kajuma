@@ -28,5 +28,10 @@
     "Img27": "https://res.cloudinary.com/dlmv4ot9h/image/upload/v1707568017/kajuma/img1_cppx5p.jpg",
     "Img28": "https://res.cloudinary.com/dlmv4ot9h/image/upload/v1707568122/kajuma/img16_ligs4h.jpg",
     "Img29": "https://res.cloudinary.com/dlmv4ot9h/image/upload/v1707568021/kajuma/img7_gcgq2o.jpg"
+  },
+  "testimonial_personnel": {
+    "person1": "https://res.cloudinary.com/dlmv4ot9h/image/upload/v1707659796/kajuma/testimonial-personnel/person1_w4iiyn.png",
+    "person2": "https://res.cloudinary.com/dlmv4ot9h/image/upload/v1707659797/kajuma/testimonial-personnel/person2_rxlu5g.png",
+    "person3": "https://res.cloudinary.com/dlmv4ot9h/image/upload/v1707659799/kajuma/testimonial-personnel/person3_nvz78k.png"
   }
 }

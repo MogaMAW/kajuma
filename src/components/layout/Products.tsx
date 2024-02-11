@@ -18,19 +18,12 @@ export const Products: React.FC = () => {
 
   const meatProductImages = [
     <AppImage url={images.Img21} />,
-    <AppImage url={images.Img20} />,
-    <AppImage url={images.Img22} />,
     <AppImage url={images.Img15} />,
+    <AppImage url={images.Img22} />,
     <AppImage url={images.Img12} />,
     <AppImage url={images.Img10} />,
     <AppImage url={images.Img14} />,
   ];
-
-  // const infoImages = [
-  //   <AppImage url={images.Img1} />,
-  //   <AppImage url={images.Img2} />,
-  //   <AppImage url={images.Img7} />,
-  // ];
 
   return (
     <Fragment>
